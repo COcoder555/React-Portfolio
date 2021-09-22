@@ -46,7 +46,7 @@ const NavB = (props) => {
                         </NavItem>
 
                         <NavItem  nav caret>
-                            <NavLink onClick={handleNavclick} href='#'>Projects</NavLink>
+                            <NavLink onClick={handleNavclick} href='#'>Portfolio</NavLink>
                         </NavItem>
 
 
@@ -76,7 +76,7 @@ const NavB = (props) => {
                                     <NavLink href="mailto:COcoder555@gmail.com">cocoder555@gmail.com</NavLink>
                                 </DropdownItem>
                                 <DropdownItem>
-                                <NavLink onClick={handleNavclick} href='#'>Form</NavLink>
+                                <NavLink onClick={handleNavclick} href='#'>Leave me a message</NavLink>
                                 </DropdownItem>
 
 

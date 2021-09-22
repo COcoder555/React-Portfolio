@@ -8,16 +8,18 @@ import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 import Forms from './components/Forms'
 
+
 function App() {
   const [currentPage, setCurrentPage] = useState('')
   return (
     <div className="App">
       <Nav currentPage={currentPage} setCurrentPage ={setCurrentPage}/>
-      {currentPage===''? <Home/>:''}
+      {currentPage===''? <AboutMe/>:''}
       {currentPage==='About Me'?<AboutMe/>:''}
-      {currentPage==='Projects'? <Projects/>: ''}
-      {currentPage==='Form'? <Forms/>: ''}
-
+      {currentPage==='Portfolio'? <Projects/>: ''}
+      {currentPage==='Leave me a message'? <Forms/>: ''}
+      <Footer/>
+    
     </div>
   );
 }

@@ -8,14 +8,18 @@ const Forms = (props) => {
       
     <Form>
       <FormGroup>
-        <Label for="exampleEmail">Email</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+        <Label for="exampleEmail">Name</Label>
+        <Input type="email" name="email" id="exampleEmail" placeholder="Enter name here" />
       </FormGroup>
       <FormGroup>
-        <Label for="examplePassword">Phone Number</Label>
-        <Input type="password" name="password" id="examplePassword" placeholder="Enter Phone # here" />
+        <Label for="examplePassword">Email</Label>
+        <Input type="password" name="password" id="examplePassword" placeholder="Enter email here" />
       </FormGroup>
-      </Form>
+      <FormGroup>
+        <Label for="examplePassword">Message</Label>
+        <Input type="password" name="password" id="examplePassword" placeholder="Please leave a mesage here" />
+      </FormGroup>
+     </Form>
   );
 }
 
